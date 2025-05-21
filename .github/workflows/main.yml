@@ -2,10 +2,10 @@ name: CI/CD Pipeline Part 1 (Pokemon Tests)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ] # just a hw assignment, so there are no branches
   pull_request:
     branches: [ main ]
-  workflow_dispatch: # to manually trigger
+  workflow_dispatch: # to manually trigger :D
 
 
 jobs:
