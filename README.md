@@ -3,6 +3,11 @@ This is a HW assignment for CS6620 (Cloud Computing) at the Roux Institute at No
 
 Regarding the continuous integration requirement, the GitHub workflow runs the tests automatically whenever code is pushed, a pull request is opened, or the workflow is triggered manually. Test workflow can be triggered manually by going to the `Actions` tab and clicking on the `Run Workflow` button under the Pokemon Tests workflow. You can view the configuration in `.github/workflows/main.yml`.
 
+Shown below is an image of a few workflow runs (on push and upon manual triggering) as proof that the workflow is running correctly:
+<p float="left", align="center">
+  <img src="figs/workflow_runs.png" width="500"/>
+</p>
+
 ## Setup
 You can run this project using either `pip` or `conda`. First make sure to properly clone and enter the repository. Alternatively, just make sure that your local environment contains `pytest` as a dependency.
 
