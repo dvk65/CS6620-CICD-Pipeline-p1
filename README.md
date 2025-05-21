@@ -35,3 +35,9 @@ conda activate cicd_pipeline_p1_env
 PYTHONPATH=src pytest tests/
 # Windows: set PYTHONPATH=src && pytest tests/
 ```
+
+## References and AI Appendix
+* GitHub documentation that goes over CI workflow with Python - https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-python
+* DevOps Pipeline - https://www.atlassian.com/devops/devops-tools/devops-pipeline
+* Continuous Integration vs. Delivery vs. Deployment - https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
+* Asking Claude to give me an explanation about GitHub workflows with bullet points along with a basic example of a typical workflow structure - https://claude.ai/share/dcdaff6e-feb2-4832-b0ad-6897e6855121
